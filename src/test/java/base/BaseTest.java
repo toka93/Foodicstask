@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class BaseTest {
 
-     public  static ExtentReports extent;
+    public static ExtentReports extent;
     public ExtentTest test;
 
     @BeforeSuite(alwaysRun = true)
@@ -23,4 +23,4 @@ public class BaseTest {
     public void endSuite() throws IOException {
         extent.flush();
     }
-    }
+}
